@@ -25,7 +25,7 @@ public class Main {
 
     new JDABuilder(AccountType.BOT) //Constructor que crea al bot y lo enciende (build())
         //    .setToken("Token Oculto") //Token Bot Original
-            .setToken("Token Oculto") //Token Bot Prueba
+        //    .setToken("Token Oculto") //Token Bot Prueba
             .addEventListener(client.build())
             .addEventListener(new Listener())
             .build();
